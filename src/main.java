@@ -1,8 +1,8 @@
-public class Main {
+public class main {
 
     public static void main(String[] args) {
 
-        FizzBuzz.fizzBuzzer(5);
+        FizzBuzz.fizzbuzzer(5);
     }
 }
 
