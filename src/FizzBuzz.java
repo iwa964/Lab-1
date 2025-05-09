@@ -8,11 +8,11 @@ class FizzBuzz {
         int i = 1;
 
         while (i <= 100) {
-            i = fizzbuzzer(i);
+            i = fizzBuzzer(i);
         }
     }
 
-    private static int fizzbuzzer(int i) {
+    public static int fizzBuzzer(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
